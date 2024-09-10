@@ -12,6 +12,6 @@ int main(){
     scanf("%d",&y);
 
     area=x*y;
-    printf("%d",area);
+    printf("Area = %d",area);
  return 0;
 }
