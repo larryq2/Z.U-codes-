@@ -1,0 +1,31 @@
+
+
+int main(){
+
+   char grade;
+
+   printf("input your grade?\n");
+   scanf("%c",&grade);
+
+   switch(grade){
+      case 'A':
+          printf("well done\n");
+        break;
+
+      case 'B':
+        printf("keep up the good work\n");
+        break;
+      case 'C':
+        printf("you can do better\n");
+        break;
+
+      case 'D':
+        printf("atleast its not an f\n");
+        break;
+
+      case 'F':
+        printf("well just start a business bro\n");
+        break;
+   }
+   return 0;
+}
